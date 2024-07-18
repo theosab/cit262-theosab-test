@@ -15,8 +15,8 @@ jobs:
          node-version: '14'
 
       - run: npm install
-        working-directory: C:\Users\Theo\Documents\api-tests\.github\workflows
+        working-directory: C:\Users\Theo\Documents\api-tests\.github\workflows\action.yaml
         
       - name: Run tests  
         run: npm test
-        working-directory: C:\Users\Theo\Documents\api-tests\.github\workflows
+        working-directory: C:\Users\Theo\Documents\api-tests\.github\workflows\action.yaml
