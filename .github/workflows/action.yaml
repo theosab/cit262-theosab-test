@@ -1,7 +1,7 @@
+
 name: Test Login Endpoint
 
 on: [push]
-
 jobs:
   dev-test:
 
@@ -16,5 +16,5 @@ jobs:
 
       - run: npm install
         
-      - name: Run tests
+      - name: Run tests  
         run: npm test
